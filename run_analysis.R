@@ -53,6 +53,7 @@ extract_data <- all_data_RAW[,c(1:2,3:8,43:48,83:88,123:128,163:168,203:204,216:
 ## Calculate the mean of all variables (except Subject and Activity that are IDs) (Req 5)
 melted <- melt(extract_data, id = c("Subject", "Activity"))
 casted <- dcast(melted, Subject + Activity ~ variable, mean)
+casted
 
 ## Write a txt file with the tidy dataset
 write.table(casted, file = "./Getting and cleaning data/Course project.txt", row.names = FALSE)
