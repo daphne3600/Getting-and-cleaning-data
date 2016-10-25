@@ -1,10 +1,10 @@
-## Getting-and-cleaning-data course project
+# Getting-and-cleaning-data course project
 
 This README describes the script run_analysis.R that is used to process the raw data and produce the tidy data set.
 
 Information about the raw data etc can be found in the CodeBook.md
 
-# What run_analysis does:
+## What run_analysis does:
 
 First, it sets up the environment. This may or may not be relevant depending on whether the data was already downloaded or not. I included it for completeness:
 * Loading packages: library(plyr); library(dplyr); library(downloader); library(reshape2)
