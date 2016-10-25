@@ -2,7 +2,7 @@
 
 This README describes the script run_analysis.R that is used to process the raw data and produce the tidy data set.
 
-Information about the raw data etc can be found in the CodeBook.md
+Information about the raw data etc can be found in the CodeBook.md. That document also describes the data.
 
 ## What run_analysis does:
 
